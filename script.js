@@ -15,7 +15,7 @@ function encriptar() {
         document.getElementById("mensaje").value = encriptado;
 //se limpia el texto
         document.getElementById("txt-input").value = "";
-        
+        mensaje.style.backgroundImage="none";
     }else{
         alert("Ingrese letras Minúsculas sin Acentos");
     }

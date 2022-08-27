@@ -12,19 +12,22 @@
         <header>
             <!--cargar logo alura-->
             <img class="logo" src="imagenes/logo.png" alt="Inicial del logo de alura">
+            <h1 class="titulo">Encriptador de Mensajes.</h1>
         </header>
     <main>
-        <section>
-                <textarea class="txt-iput" id="txt-input" cols="40" rows="6" placeholder="Ingrese su texto"></textarea>
+    <div class="container">
+        <section class="izquierdo">
+                <textarea class="txt-input" id="txt-input" cols="40" rows="6" placeholder="Ingrese su texto"></textarea>
                 <div class="botones">
                     <button class="encriptar" onclick="encriptar()">Encriptar</button>
                     <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
                 </div>
         </section>
-        <section>
-                <textarea class="mensaje" id="mensaje" cols="40" rows="6"></textarea>
+        <section class="derecho">
+                <textarea class="mensaje" id="mensaje" cols="40" rows="6" ></textarea>
                 <button class="copiar" onclick="copiar()">Copiar</button>
         </section>
+    </div>
     </main> 
     <script src="script.js"></script>      
 </body>

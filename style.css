@@ -1,13 +1,27 @@
-.logo{
-    height: 48px;
-    width: 31.085588455200195px;
-    left: 44px;
-    top: 0px;
-    border-radius: 0px;
+header{
+    padding: 20px 0;
 }
-main{
-    display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
+.logo {
+    width: 30px;
+    margin-top: 2px;
+    margin-left: 4%;
 }
-
+.titulo{
+    text-align: center;
+}
+.izquierdo{
+    position:absolute;
+    width: 317px;
+    height: 300px;
+    left: 200px;
+    top: 200px;
+    background-color: aqua;
+}
+.derecho{
+    position: absolute;
+    width: 317px;
+    height: 300px;
+    left: 800px;
+    top: 200px;
+    background-color: black;
+}
