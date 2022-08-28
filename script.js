@@ -12,6 +12,7 @@ function encriptar() {
     }
 //consulto NO hay mayusculas, que ingrese el valor a encriptado
     if(/([^a-z\ñ\s])/g.test(texto) === false) {
+        mensaje.style.backgroundImage = "none"
         document.getElementById("mensaje").value = encriptado;
 //se limpia el texto
         document.getElementById("txt-input").value = "";

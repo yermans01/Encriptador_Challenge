@@ -1,27 +1,112 @@
-header{
-    padding: 20px 0;
+body{
+    background: #F3F5FC;
 }
-.logo {
+header{
+    position: relative;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
     width: 30px;
-    margin-top: 2px;
-    margin-left: 4%;
+    height: 30px;
+    left: 30px;
+    top: 10px;
 }
 .titulo{
     text-align: center;
 }
-.izquierdo{
-    position:absolute;
-    width: 317px;
-    height: 300px;
-    left: 200px;
-    top: 200px;
-    background-color: aqua;
+.txt-input{
+    position: relative;
+    height: 48px;
+    left: 240px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #0A3871;
 }
-.derecho{
-    position: absolute;
-    width: 317px;
-    height: 300px;
-    left: 800px;
-    top: 200px;
-    background-color: black;
+.botones label {
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	z-index: 9;
+	top: 394px;
+	left: 250px;
+}
+.encriptar {
+	font-weight: bold;
+	border-color: #1286ff;
+	background-color: #1286ff;
+	color:white;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	z-index: 6;
+	top: 470px;
+	left: 260px;
+}
+.encriptar:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+.desencriptar {
+	font-weight: bold;
+	border-color: #e3e3e3;
+	border-width: 1px;
+	background-color: #e3e3e3;
+	color: black;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 470px;
+	left: 500px;
+}
+.desencriptar:hover{
+    transform: scale(1.1);
+}
+.mensaje{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    left: 850px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-image: url("imagenes/Muñeco.png");
+	background-repeat: no-repeat;
+	background-size: 260px;
+	background-position-x: 0px;
+	background-position-y: 60px;
+}
+.copiar{
+    color: white;
+	font-weight: bold;
+	background-color: #1286ff;
+	display: block;
+	font-size: 18px;
+	line-height: 19.36px;
+	position: absolute;
+	z-index: 6;
+	top: 460px;
+	left: 870px;
+	margin: 10px;
+	width: 250px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: #1286ff;
+	border-width: 1px;
+}
+footer {
+    background-color: #1286ff;
+}
+footer .imgcara{
+    width: 150px;
+    height: 150px;
+    border-radius:150px;
+    padding: 10px;
 }
