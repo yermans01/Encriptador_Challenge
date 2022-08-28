@@ -102,11 +102,46 @@ header{
 	border-width: 1px;
 }
 footer {
-    background-color: #1286ff;
-}
-footer .imgcara{
-    width: 150px;
+	position: static;
+	text-align: center;
+	color: white;
+    /*background: linear-gradient(#F3F5FC, #1286ff);*/
+	border-radius: 10px;
+	background-color: #1286ff;
+}	
+.img-rostro{
+	margin-top: 10px;
+	width: 150px;
     height: 150px;
     border-radius:150px;
-    padding: 10px;
+	border:10px solid #F3F5FC;
+}
+.redes-sociales {
+	min-width: 500px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .redes-sociales a {
+	text-decoration: none;
+	font-size: 28px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #314652;
+	color: #f1f1f1;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	transition: all .4s ease-in-out;
+  }
+  
+  .redes-sociales a:hover {
+	transform: scale(1.2);
+  }
+  .copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+	font-size: 20px;
 }
